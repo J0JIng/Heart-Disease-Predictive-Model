@@ -114,7 +114,7 @@ More of this is explained in [Methodology].
 ## 4. [Experiment]
 
 ### Metrics used to evaluate the accuracy of the Model
-To evaluate the performance of our model in predicting the presence or absence of a 'HeartDisease' response variable, we used the confusion matrix to calculate the following metrics: 
+To evaluate the performance of our model in predicting the presence or absence of a 'HeartDisease' response variable, We generated a correlation report and the confusion matrix:
 
 | Confusion Matrix  |       |        |        |      
 | :---              | :---: | :----: | :----: |         
@@ -123,16 +123,17 @@ To evaluate the performance of our model in predicting the presence or absence o
 |                   |       |   (0)   |   (1)   |       
 |                   |       | Predicted Negative    |   Predicted Postitive  |     
 
-* `Accuracy = TN + TP / (TP + FP + TN + FN)` : Accuracy = All Positives / Observation
-* `Precision = TP / (TP + FP)` : Precision = True Positives / True Positives + False Positive
-* `Recall = TP / (TP + FN)` : Recall = True Positives / True Positives + False Negative
-* `F1 Score = 2 * (Precision * Recall) / (Precision + Recall)` : F1 Score = 2*Product of Precision and Recall / Sum of Precision and Recall
+The confusion matrix is a table that summarises the predictions made by the model, where the rows represent the actual classes, and the columns represent the predicted classes.
 
-The significance of the following metrics:
-* Accuracy measures overall correctness.
-* Precision measures positive predictions' correctness. In this context , it is the model's ability to predict that a patient has 'HeartDisease' (positive prediction) and to make this prediction accurately.
-* Recall measures positive instances' identification. In the context of a medical diagnosis, for example, positive instances could be patients who have 'HeartDisease' that the model is trying to predict.  
-* F1 score balances precision and recall.
+The correlation report generates the following metrics: precision, recall, and F1 score. We will be using the macro average since the classes are not imbalanced as shown in the EDA.
+
+Performance Metrics:
+
+* **Precision**: Measures the correctness of positive predictions. In the context of this model, precision refers to the model's ability to predict that a patient has 'HeartDisease' (positive prediction) and to make this prediction accurately. For example, if the model predicts that a patient has 'HeartDisease', how often is it correct?
+
+* **Recall**: Measures the identification of positive instances. In the context of this model, positive instances refer to patients who have 'HeartDisease' that the model is trying to predict. For example, if a patient has 'HeartDisease', how often does the model correctly identify them as having 'HeartDisease'?
+
+* **F1 score**: Balances precision and recall. F1 score is the harmonic mean of precision and recall. It provides a single score that takes into account both precision and recall. A high F1 score indicates that the model has high precision and high recall.
 
 The choice of metric to use depends on the specific context and problem. If the cost of false positives and false negatives is similar, accuracy is a reasonable metric. If the cost of false positives is higher, precision is more appropriate. If the cost of false negatives is higher, recall is better. Finally, if both costs are significant, the F1 score is a good choice as it balances the two metrics.
 
