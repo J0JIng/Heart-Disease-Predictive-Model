@@ -19,6 +19,7 @@ This repository contains the project files for the SC1015 mini-project developed
 3. Random Forest model
 4. Logistic regression model
 5. Support vector machine (SVM) model
+6. Model Comparision 
 ---
 ### Table of Contents:
 1. [Introduction and Problem Formulation]
@@ -47,6 +48,14 @@ In this phase, we performed the following steps:
 2. Explored numerical features with respect to the target variable, **'HeartDisease'**. We analysed the distribution of each feature, checked for outliers, and checked whether the feature is a predictor of the target variable.
 3. Visualiaed the data using various charts and plots, such as histograms, box plots, and correlation matrix. We used these visualisations to identify patterns and trends and to detect outliers and anomalies.
 
+Key Findings :
+1. The Distribution of **'Heart Disease'** is balanced 
+2. **'Age' , 'MaxHR' and 'Oldpeak'** has the **stronger correlation** to 'HeartDisease'.
+3. **'RestingBP' and 'Cholesterol'** seems to be a **weaker correlation** to 'HeartDisease'
+4. Presence of 172 "Missing" values in 'Cholesterol' (imputed with zero)
+5. Presence of one "Missing" values in 'RestingBP' (imputed with zero)
+
+
 For further findings and explanations, please refer to the Jupyter Notebook on EDA.
 
 After performing EDA, we prepared the dataset by the following steps:
@@ -56,9 +65,7 @@ After performing EDA, we prepared the dataset by the following steps:
 
 We want to chose the best imputation method to ensure that the dataset has minimal missing values and accurate data, which helps improve the accuracy of the model. Removing outliers helps ensure that the distribution of the data is normal and that the model is not affected by extreme values.
 
-To find the best imputation method, it is explained in [Methodology].
-
-We want to chose the best imputation method to ensure that the dataset has minimal missing values and accurate data, which helps improve the accuracy of the model. Removing outliers helps ensure that the distribution of the data is normal and that the model is not affected by extreme values.
+We want to chose the best imputation method to ensure that the dataset has minimal missing values and accurate data, which helps improve the accuracy of the model. Removing outliers helps ensure that the distribution of the data is normal and that the model is not affected by extreme values. This will be important for feature pruning. 
 
 ## 3. [Methodology]
 
@@ -139,7 +146,18 @@ The choice of metric to use depends on the specific context and problem. If the 
 
 In the case of predicting heart disease, false negatives' cost might be higher, as a patient predicted to not have 'HeartDisease' could be worst off than a patient predicted to have 'HeartDisease'. Similarly, false postives' cost might aslo be high as a patient predicted to have 'HeartDisease' could take up valuable resources that could be used on patients that actually requires it. Therefore, the **F1 score might be the most reasonable metric as it balances both precision and recall**.
 
-### Detailed model analysis and baseline
+### Evaluation of the best imputation method
+
+| Models     |       Imputation Type       |  F1 Score      |      
+| :---                 | :----:                      | :----: |         
+| Decision Tree        |   Zero Imputation without Outliers                    |   0.89   |             
+| Random Forest        |     Median Imputation                     |   0.89    |       
+| Logistic Regression  |         Median Imputation             |   0.89     |       
+|        SVM           |  Mean Imputation       |   0.88  |     
+
+
+
+
 
 ....
 
