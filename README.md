@@ -30,7 +30,7 @@ This repository contains the project files for the SC1015 mini-project developed
 ## 1. [Introduction and Problem Formulation]
 
 **Our Dataset:** [Heart Failure Prediction Dataset on Kaggle] \
-**Problem Statement:** Discovering the key features or symptoms that determines the patient's likelihood of heart diseases
+**Problem Statement:** Discovering the key features or symptoms that determine the patient's likelihood of heart diseases
 
 **Introduction:**
 Heart disease is a major health concern that affects a significant portion of the population. In this project, we aim to identify the most important features that contribute to the prediction of heart disease in patients.
@@ -39,12 +39,12 @@ Heart disease is a major health concern that affects a significant portion of th
 By identifying the most important features that contribute to heart disease, we can develop more accurate and efficient predictive models that can be used to improve patient outcomes. Additionally, our findings could help healthcare professionals prioritise certain risk factors when diagnosing and treating heart disease.
 
 ## 2. [Exploratory Data Analysis and Data Preparation]
-Exploratory Data Analysis (EDA) is a crucial step in gaining a deeper understanding of the data and making informed decisions about how to preprocess the data before modeling. EDA uncovers patterns, trends, and relationships in data and helps detect outliers and anomalies.
+Exploratory Data Analysis (EDA) is a crucial step in gaining a deeper understanding of the data and making informed decisions about how to preprocess the data before modelling. EDA uncovers patterns, trends, and relationships in data and helps detect outliers and anomalies.
 
 In this phase, we performed the following steps:
 
-1. Explored categorical features with respect to the target variable, HeartDisease. We analysed the distribution of each category and checked whether the feature is a predictor of the target variable.
-2. Explored numerical features with respect to the target variable, HeartDisease. We analysed the distribution of each feature, checked for outliers, and checked whether the feature is a predictor of the target variable.
+1. Explored categorical features with respect to the target variable, **'HeartDisease'**. We analysed the distribution of each category and checked whether the feature is a predictor of the target variable.
+2. Explored numerical features with respect to the target variable, **'HeartDisease'**. We analysed the distribution of each feature, checked for outliers, and checked whether the feature is a predictor of the target variable.
 3. Visualiaed the data using various charts and plots, such as histograms, box plots, and correlation matrix. We used these visualisations to identify patterns and trends and to detect outliers and anomalies.
 
 For further findings and explanations, please refer to the Jupyter Notebook on EDA.
@@ -107,7 +107,7 @@ After finding what is the best imputation method for that particular model.
 To find the best features and model in predicting heart dieases 
 
 We performed the following:
-1. Find the best feature within each model (with the best imputation method) via feature pruning which involvees selecting the most relevant features that contribute to the accuracy of the model
+1. Find the best feature within each model (with the best imputation method) via feature pruning which involves selecting the most relevant features that contribute to the accuracy of the model
 2. Create the best model using the best features.
 More of this is explained in [Methodology].
 
