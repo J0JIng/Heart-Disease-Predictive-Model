@@ -14,23 +14,23 @@ Members:
 ---
 ### Description:
 This repository contains the project files for the SC1015 mini-project developed by students from the SCSE at NTU. Listed here are the ipynb files used, which should be viewed in numerical order:
-1. EDA and Data processing  
-2. Multivariate Decision Tree model
-3. Random Forest model
-4. Logistic regression model
-5. Support vector machine (SVM) model
-6. Model Comparision 
+1. [EDA and Data processing](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/EDA%26Datapreprocess.ipynb)
+2. [Multivariate Decision Tree model](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/DecisionTree.ipynb)
+3. [Random Forest model](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/RandomForest.ipynb)
+4. [Logistic regression model](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/LogisticRegresssion.ipynb)
+5. [Support vector machine (SVM) model](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/SVM.ipynb)
+6. [Model Comparision](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/Model%20comparison.ipynb)
 ---
 ### Table of Contents:
-1. [Introduction and Problem Formulation]
-2. [Exploratory Data Analysis and Data Preparation]
-3. [Methodology]
-4. [Experiment]
-5. [Data Driven Insights and Conclusion]
+1. [Introduction and Problem Formulation](#1-Introduction-and-Problem-Formulation)
+2. [Exploratory Data Analysis and Data Preparation](#2-Exploratory-Data-Analysis-and-Data-Preparation)
+3. [Methodology](#3-Methodology)
+4. [Experiment](#4-Experiment)
+5. [Data Driven Insights and Conclusion](#5-Data-Driven-Insights-and-Conclusion)
 ---
 ## 1. [Introduction and Problem Formulation]
 
-**Our Dataset:** [Heart Failure Prediction Dataset on Kaggle] \
+**Our Dataset:** [Heart Failure Prediction Dataset on Kaggle](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/heart.csv) \
 **Problem Statement:** Discovering the key features or symptoms that determine the patient's likelihood of heart diseases
 
 **Introduction:**
@@ -39,7 +39,7 @@ Heart disease is a major health concern that affects a significant portion of th
 **Significance:**
 By identifying the most important features that contribute to heart disease, we can develop more accurate and efficient predictive models that can be used to improve patient outcomes. Additionally, our findings could help healthcare professionals prioritise certain risk factors when diagnosing and treating heart disease.
 
-## 2. [Exploratory Data Analysis and Data Preparation]
+## 2. [Exploratory Data Analysis and Data Preparation]()
 Exploratory Data Analysis (EDA) is a crucial step in gaining a deeper understanding of the data and making informed decisions about how to preprocess the data before modelling. EDA uncovers patterns, trends, and relationships in data and helps detect outliers and anomalies.
 
 In this phase, we performed the following steps:
@@ -72,10 +72,10 @@ We want to chose the best imputation method to ensure that the dataset has minim
 To find the best imputation method, we ran the six separate dataframes on each of the four machine learning (ML) models. We compared the accuracy of each data frame within each model by measuring metrics such as precision, recall and F1 score. How these metrics are chosen are explained later in [Experiment].
 
 ### The four machine learning models used to classify heart disease are as follows: 
-1. Decision Tree 
-2. Random Forest
-3. Logistic Regression
-4. Support Vector Machine (SVM).
+1. [Decision Tree](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/DecisionTree.ipynb)
+2. [Random Forest](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/RandomForest.ipynb)
+3. [Logistic Regression](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/LogisticRegresssion.ipynb)
+4. [Support Vector Machine (SVM)](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/SVM.ipynb)
 
 ### Baseline Model - Decision Tree model
 The Decision Tree model is a simple yet powerful algorithm that uses a tree-like structure to classify data based on a set of rules. It is often used as a baseline model for classification tasks. However, we found that the Decision Tree model yielded subpar results for our dataset, indicating that a more complex model was needed.
