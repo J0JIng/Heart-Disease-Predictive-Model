@@ -63,8 +63,6 @@ After performing EDA, we prepared the dataset by the following steps:
 1. **Imputed the missing values**. We used the best imputation method that yielded the most accurate results, based on the comparison of six separate data frames. The six data frames consisted of three with different imputation methods (zero imputation, mean imputation, and median imputation) and with or without outliers. 
 2. **Removed outliers**. The data frames without outliers were removed using interquartile range (IQR) method. This is important as outliers can skew the distribution of the data and affect the accuracy of the model.
 
-We want to chose the best imputation method to ensure that the dataset has minimal missing values and accurate data, which helps improve the accuracy of the model. Removing outliers helps ensure that the distribution of the data is normal and that the model is not affected by extreme values.
-
 We want to chose the best imputation method to ensure that the dataset has minimal missing values and accurate data, which helps improve the accuracy of the model. Removing outliers helps ensure that the distribution of the data is normal and that the model is not affected by extreme values. This will be important for feature pruning. 
 
 ## 3. [Methodology]
