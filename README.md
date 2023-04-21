@@ -121,7 +121,7 @@ More of this is explained in [Experiment].
 
 ## 4. [Experiment]
 
-### Metrics used to evaluate the accuracy of the Model
+### Performance Metrics used to evaluate the accuracy of the Model
 To evaluate the performance of our model in predicting the presence or absence of a 'HeartDisease' response variable, We generated a correlation report and the confusion matrix:
 
 | Confusion Matrix  |       |        |        |      
@@ -167,7 +167,7 @@ The following table shows the best imputation method across all four ML models a
 | Logistic Regression  |         Median Imputation             |   0.89     |       
 |        SVM           |  Mean Imputation       |   0.88  |     
 
-Our analysis suggests that the imputation technique does not significantly impact the F1 score, as all ML models have similar F1 scores ranging from 0.88-0.89. We expected This conclusion, as in the EDA, we found that **'Cholesterol'** is not an important feature. Regardless, with the best-performing imputation method, we performed feature pruning to obtain the most important features for that particular model.
+Our analysis suggests that the imputation technique does not significantly impact the F1 score, as all ML models have similar F1 scores ranging from 0.88-0.89. We expected this conclusion, as in the EDA, we found that **'Cholesterol'** is not an important feature. Regardless, with the best-performing imputation method, we performed feature pruning to obtain the most important features for that particular model.
 
 ### Detailed comparison of the Feature importance:
 
@@ -222,10 +222,7 @@ We can compare the ML models before feature pruning had a score of 0.88-0.89. Af
 
 ### 5. [Conclusion and Data Driven Insights]
 
-Based on our findings, we conclude that healthcare professionals can prioritise the following risk factors when diagnosing and treating heart disease, namely: **'ChestPainType_ASY'**,**'ST_Slope_Up'**,**'Sex_F'**,**'Oldpeak'**,**'ExerciseAngina_N'**. Moreover, SVM is the best ML model for predicting if a patient has **'HeartDisease'**. 
+Based on our findings, we found that 'ChestPainType_ASY', 'ST_Slope_Up', 'Sex_F', 'Oldpeak', and 'ExerciseAngina_N' are the top priority risk factors that healthcare professionals should consider when diagnosing and treating heart disease. Additionally, we determined that SVM is the most effective ML model for predicting the presence of heart disease.
 
-However, we also would like to acknowledge the limitation of our current model as it uses only one feature selection technique: feature pruning. Other techniques such as Principal Component Analysis (PCA), Recursive Feature Elimination (RFE), and feature importance can be explored to identify the most significant features and improve the performance of the models.
-
-Nonetheless, our present models provide an excellent benchmark for more complex models and feature selections to be made. 
-
+However, our current model has a limitation in that it only uses one feature selection technique, feature pruning. To improve the model's performance, we suggest exploring other feature selection techniques such as Principal Component Analysis (PCA), Recursive Feature Elimination (RFE), and further feature importance analysis to identify the most significant features. Despite this limitation, our current models serve as a strong benchmark for future models with more complex feature selections.
 
