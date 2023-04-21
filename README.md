@@ -220,7 +220,7 @@ We found that all four models have relatively similar performance, with F1 score
 We can compare the ML models before feature pruning had a score of 0.88-0.89. After re-training all four models, this slight decrement in the F1 score 0f 0.87 affirms that the selected features are the most important predictors. 
 
 
-### 5. [Conclusion and Data Driven Insights]
+### 5. [Data Driven Insights and Conclusion]
 
 Based on our findings, we found that 'ChestPainType_ASY', 'ST_Slope_Up', 'Sex_F', 'Oldpeak', and 'ExerciseAngina_N' are the top priority risk factors that healthcare professionals should consider when diagnosing and treating heart disease. Additionally, we determined that SVM is the most effective ML model for predicting the presence of heart disease.
 
