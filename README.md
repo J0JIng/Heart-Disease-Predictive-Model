@@ -121,8 +121,8 @@ More of this is explained in [Experiment].
 
 ## 4. [Experiment]
 
-### Performance Metrics used to evaluate the accuracy of the Model
-To evaluate the performance of our model in predicting the presence or absence of a 'HeartDisease' response variable, We generated a correlation report and the confusion matrix:
+### Performance Metrics used to evaluate the accuracy of the Model:
+To evaluate the performance of our model in predicting the presence or absence of a **'HeartDisease'** response variable, We generated a classification report and the confusion matrix:
 
 | Confusion Matrix  |       |        |        |      
 | :---              | :---: | :----: | :----: |         
@@ -133,7 +133,7 @@ To evaluate the performance of our model in predicting the presence or absence o
 
 The confusion matrix is a table that summarises the predictions made by the model, where the rows represent the actual classes, and the columns represent the predicted classes.
 
-The correlation report generates the following metrics: precision, recall, and F1 score. We will be using the macro average since the classes are not imbalanced as shown in the EDA.
+The classification report generates the following metrics: precision, recall, and F1 score. We will be using the macro average since the classes are not imbalanced as shown in the EDA.
 
 Performance Metrics:
 
