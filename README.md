@@ -213,7 +213,7 @@ The ML models are once again trained with only the most important features. Sinc
 We found that all four models have relatively similar performance, with F1 scores ranging from 0.87 to 0.88 and ROC-AUC scores ranging from 0.938 to 0.948. This suggests that the models trained using the most important features can make accurate predictions. In this case, SVM is shown to be marginally better as it has the highest ROC-AOC score of 0.948, making it the best ML model to predict if a patient has heart disease. 
 
 
-We can compare the ML models before feature pruning had a score of 0.88-0.89. After re-training all four models, this slight decrement in the F1 score 0f 0.87 affirms that the selected features are the most important predictors. 
+We can compare the ML models before feature pruning had a score of 0.88-0.89. After re-training all four models, this slight 0.1 decrement in the F1 score to 0.87 affirms that the selected features are the most important predictors. 
 
 
 ## 5. [Data Driven Insights and Conclusion]
@@ -225,7 +225,7 @@ However, we recognise that our findings are primarily limited to the dataset pro
 Despite this limitation, our current models are a strong benchmark for future models with more complex feature selections.
 
 ## 6. [Contribution]
-1. O Jing - EDA , Decision Tree model , Logistic Regression , Slides , Github.
+1. O Jing - EDA , Decision Tree model , Logistic Regression model , Slides , Github.
 2. Ridhwan Hakim - EDA , Random Forest Model , Slides , Video. 
 3. Vignesh Mani Senthilnathan - EDA , SVM Model , Slides , Video. 
 
