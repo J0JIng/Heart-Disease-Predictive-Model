@@ -241,5 +241,6 @@ Despite this limitation, our current models are a strong benchmark for future mo
 * https://www.indeed.com/career-advice/career-development/how-to-conduct-exploratory-data-analysis
 * https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 * https://scikit-learn.org/stable/
+* https://slidesgo.com/theme/artificial-intelligence-ai-technology-project-proposal
 
 
