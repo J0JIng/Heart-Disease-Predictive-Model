@@ -33,7 +33,7 @@ This repository contains the project files for the SC1015 mini-project developed
 ## 1. [Introduction and Problem Formulation]
 
 ### **Our Dataset:** [Heart Failure Prediction Dataset on Kaggle](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/heart.csv) 
-**Problem Statement:** Discovering the key features or symptoms that determine the patient's likelihood of heart diseases
+#### **Problem Statement:** Discovering the key features or symptoms that determine the patient's likelihood of heart diseases
 
 ### **Introduction:**
 Heart disease is a major health concern that affects a significant portion of the population. In this project, we aim to identify the most important features that contribute to the prediction of heart disease in patients.
