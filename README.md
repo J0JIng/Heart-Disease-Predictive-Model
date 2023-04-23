@@ -32,8 +32,10 @@ This repository contains the project files for the SC1015 mini-project developed
 ---
 ## 1. [Introduction and Problem Formulation]
 
-### **Our Dataset:** [Heart Failure Prediction Dataset on Kaggle](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/heart.csv) 
-#### **Problem Statement:** Discovering the key features or symptoms that determine the patient's likelihood of heart diseases
+### **Our Dataset:** [Heart Failure Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
+
+### **Problem Statement:** 
+Discovering the key features or symptoms that determine the patient's likelihood of heart diseases.
 
 ### **Introduction:**
 Heart disease is a major health concern that affects a significant portion of the population. In this project, we aim to identify the most important features that contribute to the prediction of heart disease in patients.
@@ -231,8 +233,11 @@ Despite this limitation, our current models are a strong benchmark for future mo
 * https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
 * https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
 * https://scikit-learn.org/stable/modules/generated/sklearn.impute.SimpleImputer.html
+* https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 * https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc
 * https://thedatascientist.com/learning-curves-scikit-learn/
 * https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=In%20a%20ROC%20curve%2C%20a,False%20positives%20and%20False%20negatives.
+* https://www.indeed.com/career-advice/career-development/how-to-conduct-exploratory-data-analysis
+* https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
 
 
