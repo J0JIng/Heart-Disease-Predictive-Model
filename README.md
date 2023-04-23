@@ -32,7 +32,8 @@ This repository contains the project files for the SC1015 mini-project developed
 ---
 ## 1. [Introduction and Problem Formulation]
 
-### **Our Dataset:** [Heart Failure Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction)
+### **Our Dataset:** [Heart Failure Prediction Dataset on Kaggle](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) 
+Click [Here](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/heart.csv) for the dataset we downloaded.
 
 ### **Problem Statement:** 
 Discovering the key features or symptoms that determine the patient's likelihood of heart diseases.
@@ -224,8 +225,8 @@ However, we recognise that our findings are primarily limited to the dataset pro
 Despite this limitation, our current models are a strong benchmark for future models with more complex feature selections.
 
 ## 6. [Contribution]
-1. O Jing - EDA , Decision Tree model , Logistic Regression , slides , github.
-2. Ridhwan Hakim - EDA , Random Forest Model , slides , Video. 
+1. O Jing - EDA , Decision Tree model , Logistic Regression , Slides , Github.
+2. Ridhwan Hakim - EDA , Random Forest Model , Slides , Video. 
 3. Vignesh Mani Senthilnathan - EDA , SVM Model , Slides , Video. 
 
 ## 7. [Reference]
@@ -239,5 +240,6 @@ Despite this limitation, our current models are a strong benchmark for future mo
 * https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/#:~:text=In%20a%20ROC%20curve%2C%20a,False%20positives%20and%20False%20negatives.
 * https://www.indeed.com/career-advice/career-development/how-to-conduct-exploratory-data-analysis
 * https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction
+* https://scikit-learn.org/stable/
 
 
