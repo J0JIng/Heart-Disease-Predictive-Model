@@ -195,7 +195,7 @@ Hence we identified the most important features that are consistently important 
 |       Oldpeak           | 
 |       ExerciseAngina_N          | 
 
-### Detailed comparison of the models with the best features:
+### [Detailed comparison of the models with the best features](https://github.com/J0JIng/SC1015-Mini-Project/blob/main/Model%20comparison.ipynb):
 
 The ML models are once again trained with only the most important features. Since the imputation technique is optional, we would be omitting it.  
 
